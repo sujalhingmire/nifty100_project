@@ -1,0 +1,19 @@
+company_id,table,years_in_db,first_year,last_year,missing_years,has_min_5_years,coverage_note
+SUNPHARMA,profitandloss,12,2013.0,2024.0,"[2010, 2011, 2012]",True,OK — 12 years
+SUNPHARMA,balancesheet,12,2013.0,2024.0,"[2010, 2011, 2012]",True,OK — 12 years
+SUNPHARMA,cashflow,12,2013.0,2024.0,"[2010, 2011, 2012]",True,OK — 12 years
+BAJFINANCE,profitandloss,10,2015.0,2024.0,"[2010, 2011, 2012, 2013, 2014]",True,OK — 10 years
+BAJFINANCE,balancesheet,10,2015.0,2024.0,"[2010, 2011, 2012, 2013, 2014]",True,OK — 10 years
+BAJFINANCE,cashflow,10,2015.0,2024.0,"[2010, 2011, 2012, 2013, 2014]",True,OK — 10 years
+ADANIGREEN,profitandloss,8,2017.0,2024.0,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",True,PARTIAL — 8 years
+ADANIGREEN,balancesheet,8,2017.0,2024.0,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",True,PARTIAL — 8 years
+ADANIGREEN,cashflow,8,2017.0,2024.0,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",True,PARTIAL — 8 years
+HAL,profitandloss,12,2013.0,2024.0,"[2010, 2011, 2012]",True,OK — 12 years
+HAL,balancesheet,9,2016.0,2024.0,"[2010, 2011, 2012, 2013, 2014, 2015]",True,PARTIAL — 9 years
+HAL,cashflow,8,2017.0,2024.0,"[2010, 2011, 2012, 2013, 2014, 2015, 2016]",True,PARTIAL — 8 years
+EICHERMOT,profitandloss,12,2012.0,2024.0,"[2010, 2011, 2015]",True,OK — 12 years
+EICHERMOT,balancesheet,12,2012.0,2024.0,"[2010, 2011, 2015]",True,OK — 12 years
+EICHERMOT,cashflow,12,2012.0,2024.0,"[2010, 2011, 2015]",True,OK — 12 years
+JIOFIN,profitandloss,3,,,See full coverage check,False,BELOW MINIMUM — 3 year(s)
+JIOFIN,balancesheet,3,,,See full coverage check,False,BELOW MINIMUM — 3 year(s)
+JIOFIN,cashflow,2,,,See full coverage check,False,BELOW MINIMUM — 2 year(s)
