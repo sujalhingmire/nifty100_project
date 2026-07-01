@@ -1,0 +1,72 @@
+==============================================================================
+NIFTY 100 FINANCIAL INTELLIGENCE PLATFORM
+Database Validation Report — financial_ratios table
+==============================================================================
+
+Total Rows               : 2295
+Expected Minimum Rows    : 1100
+Row Count Check          : PASS
+
+Duplicate (company_id, year) Rows : 0
+Duplicate Check                   : PASS
+
+------------------------------------------------------------------------------
+Missing KPI Counts (NULL per column)
+------------------------------------------------------------------------------
+  net_profit_margin_pct                   :     95
+  operating_profit_margin_pct             :    119
+  return_on_equity_pct                    :    120
+  debt_to_equity                          :     34
+  interest_coverage                       :    179
+  asset_turnover                          :    122
+  free_cash_flow_cr                       :    128
+  capex_cr                                :    129
+  earnings_per_share                      :    101
+  book_value_per_share                    :    127
+  dividend_payout_ratio_pct               :    101
+  total_debt_cr                           :     34
+  cash_from_operations_cr                 :    106
+  revenue_cagr_5yr                        :   1632
+  pat_cagr_5yr                            :   1709
+  eps_cagr_5yr                            :   1715
+  composite_quality_score                 :   1048
+
+------------------------------------------------------------------------------
+NULL Summary
+------------------------------------------------------------------------------
+  net_profit_margin_pct                   :     95 (  4.1%)
+  operating_profit_margin_pct             :    119 (  5.2%)
+  return_on_equity_pct                    :    120 (  5.2%)
+  debt_to_equity                          :     34 (  1.5%)
+  interest_coverage                       :    179 (  7.8%)
+  asset_turnover                          :    122 (  5.3%)
+  free_cash_flow_cr                       :    128 (  5.6%)
+  capex_cr                                :    129 (  5.6%)
+  earnings_per_share                      :    101 (  4.4%)
+  book_value_per_share                    :    127 (  5.5%)
+  dividend_payout_ratio_pct               :    101 (  4.4%)
+  total_debt_cr                           :     34 (  1.5%)
+  cash_from_operations_cr                 :    106 (  4.6%)
+  revenue_cagr_5yr                        :   1632 ( 71.1%)
+  pat_cagr_5yr                            :   1709 ( 74.5%)
+  eps_cagr_5yr                            :   1715 ( 74.7%)
+  composite_quality_score                 :   1048 ( 45.7%)
+
+------------------------------------------------------------------------------
+Quality Score Statistics
+------------------------------------------------------------------------------
+  count     : 1247.0000
+  mean      : 54.5147
+  min       : 0.0000
+  max       : 100.0000
+
+------------------------------------------------------------------------------
+Columns Entirely NULL
+------------------------------------------------------------------------------
+  None
+
+Execution Time (seconds) : 2.328
+
+==============================================================================
+OVERALL VALIDATION RESULT : PASS
+==============================================================================
